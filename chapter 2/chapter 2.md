@@ -9,7 +9,7 @@
 `Data Models`
 <hr>
   
-![](DM.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/DM.png)
 
 من اهم المزايا اللي بيوفرها الداتا بيز انه بيحقق مفهوم ال Data Abstraction بيخفي عن اليوزر حاجات هو مش محتاجها .
 وال relationships اللي بتكون بين اكتر من entities.
@@ -23,10 +23,10 @@
   - low-level or physical Data model تفاصيله كتير مقارنة بالاتنين التانيين
   - implementation or representational data model معظم ال DBMS تستخدم هذا النوع من ال Data model. 
 
-![](images\CDM.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/CDM.png)
 
 
-![](images\LL.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/LL.png)
 
 ## what is The difference between Relationship,entity and attribute
 
@@ -37,7 +37,7 @@ Attribute هو الخصائص اللي بوصف بيها الانتتي
 Relationship تكون بين اكتر من Entity.
 
 
-![](images\REA.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/REA.png)
 
 <br>
 في الشكل 2 Entity هحتفظ بالوصف بتاعهم داخل الداتا بيز الوصف بتاع ال Entity الاول يحتوي علي الاسم والشارع والاي دي والمدينة الاربعة يمثلوا ال attribute of Entity 1 
@@ -47,12 +47,12 @@ Relationship تكون بين اكتر من Entity.
 
 `Schema`
 
-![](images\S.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/S.png)
 
 The Description of Database is called Schema.
 وصف قاعدة البيانات يمثل Schema.
 
-![](images\DS.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/DS.png)
 
 حالة قاعدة البيانات من غير ميحصل فيها اي عملية تعديل اسمها Database State or Snapshot.
 
@@ -61,11 +61,14 @@ The Description of Database is called Schema.
 
 `Three Schema Architecture and data independence`
 
-![](images\IL.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/IL.png)
 
-![](images\CL.png)
 
-![](images\EL.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/CL.png)
+
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/EL.png)
+
 
 ال Scheme بت describe  the structure of the database not how to access it. وتنقسم الي ثلاث levels:internal,external,reprsentaional schema.
 
@@ -88,7 +91,8 @@ The internal schema use intenal data mode that describe the storage structure of
    * Physical Data independence
    :هي امكانية التعديل في ال internal schema بدون الحاجة للتعديل في ال conceptual schema.
 
-![](images\DI.png)
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/DI.png)
 
 
 `Database language and interfaces`
@@ -102,7 +106,7 @@ The internal schema use intenal data mode that describe the storage structure of
 
 `The Database System Environment`
 
-![](images\DSE.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/DSE.png)
 
 
 <hr>
@@ -110,21 +114,23 @@ The internal schema use intenal data mode that describe the storage structure of
 
 `Centralized and Client/Server Architectures of DBMSs`
 
-![](images\CDBA.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/CDBA.png)
 
 الاركتكشر الخاص بال DBMS يشبه الاركتكشر الخاص بالكمبيوتر القديم بيكون عندي مينفريم كمبيوتر امكانياته عالية اوي بيعمل كل processing لكل ال functionallity المطلوبة منه زي application programs and user interface programs as well as the database functionallity.ال terminals تكون متصلة بال minframe ترسل الداتا له بحيث يتعملها بروسيسنج وترجع تتعرض تاني ك output علي ال terminal.ال terminal مبيحصلش فيها اي حاجة غير ان الداتا بتتعرض عليها وتكون متصلة بال mainframe computer عن طريق communication network.
 
-![](images\CSA.png)
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/CSA.png)
 
 الفكرة الاساسية هنا اني مخليش الشغل centralized عند حته معينة فهوزع الشغل بين ال server وال client شغل هيتم عن ال server وشغل هيتم عند ال client .من وجهة نظر الداتا بيز يتم تقسيم ال Client/Server Architecture الي نوعين 
 Two-Tier Client/Server DBMS and Three-Tier  Client/Server Architecture
 * The Two-tier 
 بيكون متقسم لجزئين جزء فيه user interface programs and application programs ودول بيكونو عند الكلاينت والجزء التاني اللي هوا الداتا بيز نفسها بيكون عن السيرفر اسم السيرفر Query Server or Transaction Server or SQL Server.
 
-![](images\CS.png)
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/CS.png)
 
 * The Three-tier Client/Server Architectuer:
 بيتكون من 3 layer الاولي لل client ويكون فيها user interface programs والطبقة التانية يكون فيها application programs or business rules والطبقة التالتة يكون فيها DBMS and DB.
 Three Layers (client-Server-Application Server or Web Server)
 
-![](images\TT.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%202/images/TT.png)
