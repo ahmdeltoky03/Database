@@ -1,16 +1,17 @@
 # `Data Modeling Using Entity-Relationship (ER)Model`
 #### ER model هو مودل يوضح العلاقة بين ال entities وبعضها داخل نفس ال environment or organizations.
-![](ER.png)
+
+![](images\ER.png)
 
  الانتيتي هو الكيان اللي بحتفظ عنه ببيانات داخل الداتا.
 
 
-![](A.png)
+![](images\A.png)
 
 ال attribute هو وصف للبيانات اللبي بحتفظ عنها لكل كيان داخل قاعدة البيانات
 او هي الصفات اللي بستخدمها عشان اوصف الانتيتي.
 
-![](R.png)
+![](images\R.png)
 
 ال relationship هو علاقة بين اتنين Entities او اكتر 
 
@@ -20,7 +21,7 @@
 ## `Types of Attributes:`
 الاتربيوتس هي وصف الانتيتي 
 
-![](AT1.png)
+![](images\AT1.png)
 
 ## Attribute  can be divided into two types :
 * simple
@@ -28,7 +29,7 @@
 النوع السيمبل هو نوع يحتمل قيمة واحدة مجردة لا أكثر ولا أقل زي النوع كدا male or female.
  نوع الثاني يحتمل اكتر من قيمة زي مثلا ال address العنوان اقدر اوصفه بأكتر من صفة.
 
-![](AT2.png)
+![](images\AT2.png)
 
 ## Also Attribute  can be divided into two types :
 * single valued
@@ -38,7 +39,7 @@
 
 ## Also Attribute  can be divided into two types :
 
-![](AT3.png)
+![](images\AT3.png)
 
 النوع دا يكون كومبلكس يعني بيكون mutlivalued and composite يعني باختصار الاتربيوت الواحدة بيندرج تحتها اكتر من attribute.
 
@@ -49,12 +50,12 @@
 <br>
 النوع الاول بينطلب قيمته من المسخدم علشان يتم تخزينها في قاعدة البيانات زي مثلا تارخ الميلاد ومن خلال تاريخ الميلاد يمكن استنتاج العمر فنا هنااستنتجت العمر لذلك فهو Derived Attribute.
 
-![](AT4.png)
+![](images\AT4.png)
 
 
 # `Entity Relationship (ER) Model`
 
-![](ERmodel.png)
+![](images\ERmodel.png)
 
 الانتيتي يمثل بشكل مستطيل والاتربيوت يمثل بشكل بيضاوي.
 <br>
@@ -64,7 +65,7 @@ multi valued attribute يمثل بشكل بيضاوي بس double زي ال phon
 <br>
 الاتربيوت اللي اسمه address نوعه composite attribute.
 
-![](WE.png)
+![](images\WE.png)
 
 <hr>
 
@@ -80,13 +81,18 @@ Types of Relationship :
  .النوع التاني يربط بين تلاتة انتيتز
 <br>
 .النوع الثالت موضح بالشكل
-![](RelationShip.png)
-![](RecursiveRelationhip.png)
+
+![](images\RelationShip.png)
+
+
+![](images\RecursiveRelationhip.png)
 
 ## Constriants on Relationship
-![](cardinality.png)
+
+![](images\cardinality.png)
 
 
 ## `Exampe to illustate the ER model`
-![](Example.png) 
+
+![](images\Example.png) 
 

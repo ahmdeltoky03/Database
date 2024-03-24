@@ -161,7 +161,7 @@ Hence, if R has nR tuples (denoted as |R| = nR ), and S has nS tuples, then R x 
 
 JOIN Operation
 
-![alt text](image.png)
+![alt text](images\image.png)
 - The sequence of CARTESIAN PRODECT followed by SELECT is used quite commonly to identify and select related tuples from two relations
 - A special operation, called JOIN combines this sequence into a single operation
 - This operation is very important for any relational database with more than a single relation, because it allows us combine related tuples from various relations 
