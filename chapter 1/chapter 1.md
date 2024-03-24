@@ -41,7 +41,10 @@
       -Section
       -Grade Report
 ### This figure represent the Meta-Data  in the university database.
-![Meta-Data](images\MD.png)
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%201/images/MD.png)
+
+
 # (```Meta-Data describe the structure of Data Base```)
       * Construct University Database
       -store data to represent student,course,section and grade report.
@@ -54,7 +57,11 @@
       وبعد كدا نبتدي نبني القاعدة وفي هذة العملية يتم التخزين الفعلي للداتا الخاصة بكل طالب ودكتور ومحتاجين نكونكت بين الريكورد 
       وبعد مخزنا البيانات الخاصة بالطالب او الدكتور الطالب ممكن يعدل في البيانات انه ممكن يغير الباسورد مثلا او يغير تسجبل اي مقرر او ما شابه ذلك
 
-![](images\DB1.png)
+
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%201/images/DB1.png)
+
+
 الصورة دي بتوضح انا كيوزر بتعامل مع قاعدة البيانات ازاي انا برسل للداتا بيز كويري بطلب منه استفسار اللي بيستقبل الاستفسار دا DBMS وبعدين في سوفت وير سيستم بيعمل تحليل للبروسيس دي وفي سوفت وير تاني بيكون ليه اكسس لمكانين مكان خاص بالميتا داتا اللي بيتخزن فيه database definition or descriptive information ومكان تاني نخزن فيه الداتا.وبعدين ال DBMS بيروح من خلال تحليلية للكويري يشوف الداتا المطلوبة وبعدين يروح يشوف الوصف الخاص بيها من ال الميتا داتا ويرسل الوصف ك respond لليوزر وبكدا يكون اليوزر حصل علي البيانات اللي هو عايزها.
 
 <hr>
@@ -68,7 +75,7 @@
 * 
 قاعدة البيانات حلت مشاكل كتير جدا زي مشكلة تكرار الداتا والتعديل في الداتا كان بياخد وقت كتير ومكنتش بعرف اشارك الداتا مع اكتر من يوزر وعشان اعمل ابديت للداتا بعمل ابديت لكل النسخ اللي مكتوب عليها البرنامج.
 
-![](images\DB2.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%201/images/DB2.png)
 
 # `Characteristic of using Database Approch`
 * # Self Describing of Data Base System. 
@@ -81,7 +88,8 @@
 
 
 # `Database Administrators`
-![](images\DBA.png)
+
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%201/images/DBA.png)
 
 
 
@@ -98,7 +106,7 @@
 
 ### Database Designers
 
-![](images\Design.png)
+![](https://github.com/ahmdeltoky03/Database/blob/main/chapter%201/images/Design.png)
 
 ### Systems Analysts and Application Programmers
 الشخص اللي بيشوف الكويري اللي ممكن اليوزر يعملها علي السيستم  ويبدأ يضيفها.<hr>
