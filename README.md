@@ -8,7 +8,6 @@
 #### ch 5-The Relational Data Model and Relational Database Constraints
 #### ch 6-Relational Algebra and Calculus
 #### ch 7-Relational Database Design by ER- and EERR-to-Relational Mapping
-
-
+#### ch 10-Functional Dependencies and Normalization for Relational Databases
 
 ###### If you want this book click here ([`https://www.auhd.edu.ye/upfiles/elibrary/Azal2020-01-22-12-28-11-76901.pdf`](https://www.auhd.edu.ye/upfiles/elibrary/Azal2020-01-22-12-28-11-76901.pdf)https://www.auhd.edu.ye/upfiles/elibrary/Azal2020-01-22-12-28-11-76901.pdf)
